@@ -37,7 +37,7 @@
 
 * The working directory was home when the ls command with no argument was run.
 
-* I got this output because the ls command is used to show all the directories and files of the given path.
+* I got this output because the ls command is used to show all the directories and files of the given path. So lecture1 directory was under the home directory.
 
 * The output is not an error. 
 
@@ -59,7 +59,7 @@
 
 * The working directory was home when the ls command with a path to a file as an argument was run.
 
-* I got this output because the ls command is used to show all the directories and files of the given path.
+* I got this output because the ls command is used to show all the directories and files of the given path. In this case it shows me the path to that file. 
 
 * The output is not an error.
 
@@ -69,9 +69,9 @@
 ## cat command with no arguments
 ![Image](catwnoarg.png)
 
-* The working directory was home when the cd command with no argument was run.
+* The working directory was home when the cat command with no argument was run.
 
-* It returns me to the home directory. I got this output because the cd command is used to change the current directory to the other directory that we want so it doesn't change if we don't give an argument.
+* I did not get any output after typing more text when I pressed enter it showed me back that text. this happens because the cat command is used to show the content of a given path to a file.
 
 * The output is not an error. 
 
@@ -80,11 +80,11 @@
 ## cat command with a path to a directory as an argument
 ![Image](catwdir.png)
 
-* The working directory was /home when the cd command with a path to a directory as an argument was run.
+* The working directory was home when the cat command with a path to a directory as an argument was run.
 
-* It changed my current directory to lecture1. I got this output because the cd command is used to change the current directory to the other directory that we want.
+* I got that output because I gave a path to a directory not to a file so the cat command is used to show the content of a file, not a directory.
 
-* The output is not an error.
+* The output is an error because giving a path to a directory does not make sense for this command so it showed me an error that itis not a valid argument for cat.
 
   
 
@@ -92,9 +92,9 @@
 ## cat command with a path to a file as an argument
 ![Image](catwfile.png)
 
-* The working directory was /lecture1 when the cd command with a path to a file as an argument was run.
+* The working directory was home when the cat command with a path to a file as an argument was run.
 
-* I got this output because the cd command is used to change the current directory to the other directory that we want, so README is not a directory. 
+* I got this output because the cat command is used to show the content of a file, so it showed me the content of README file. 
 
-* The output is an error because README is a file, not a directory.
+* The output is not an error.
 
