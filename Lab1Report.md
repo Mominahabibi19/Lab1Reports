@@ -1,4 +1,5 @@
-# Lab Report 1 - Remote Access and FileSystem by Momina Habibi
+# Lab Report 1 - Remote Access and FileSystem 
+*by Momina Habibi*
 
 
 ## cd command with no arguments
