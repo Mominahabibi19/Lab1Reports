@@ -2,6 +2,7 @@
 *by Momina Habibi*
 
 
+
 ## cd command with no arguments
 ![Image](cdwnoarg.png)
 
@@ -21,6 +22,7 @@
 * It changed my current directory to lecture1. I got this output because the cd command is used to change the current directory to the other directory that we want.
 
 * The output is not an error. 
+
 
 
 ## cd command with a path to a file as an argument
