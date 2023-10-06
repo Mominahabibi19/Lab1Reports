@@ -8,7 +8,7 @@
 
 * The working directory was home when the cd command with no argument was run.
 
-* It returns me to the home directory. I got this output because the cd command is used to change the current directory to the other directory that we want so it doesn't change it if we don't give an argument.
+* I got this output because the cd command is used to change the current directory to the other directory that we ask for so in this case with no argument it doesn't change any directory.
 
 * The output is not an error. 
 
@@ -18,8 +18,7 @@
 ![Image](cdwdir.png)
 
 * The working directory was home when the cd command with a path to a directory as an argument was run.
-
-* It changed my current directory to lecture1. I got this output because the cd command is used to change the current directory to the other directory that we want.
+*  I got this output because the cd command is used to change the current directory to the other directory that we ask for so the argument was a path to the lecture1 directory.
 
 * The output is not an error. 
 
@@ -30,7 +29,7 @@
 
 * The working directory was home when the cd command with a path to a file as an argument was run.
 
-* I got this output because the cd command is used to change the current directory to the other directory that we want, so README was not a directory it was a file
+* I got this output because the cd command is used to change the current directory to the other directory, so README was not a directory it was a file.
 
 * The output is an error because README is a file, not a directory.
 
@@ -98,7 +97,7 @@
 
 * The working directory was home when the cat command with a path to a file as an argument was run.
 
-* I got this output because the cat command is used to show the content of a file, so it showed me the content of README file. 
+* I got this output because the cat command is used to show the content of a file, so it showed me the content of the README file because I gave a path to the README file as an argument.
 
 * The output is not an error.
 
